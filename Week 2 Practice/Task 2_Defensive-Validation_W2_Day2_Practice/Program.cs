@@ -5,7 +5,7 @@ using System.Collections.Generic;
 class Program
 {
     static void Main()
-    //for stdunts record yahan dic use karengy Keys unique hoti hain, values duplicate ho sakti hain.
+    //for students record yahan dic use karengy Keys unique hoti hain, values duplicate ho sakti hain.
     {           // key, Value
         Dictionary<int, string> students = new Dictionary<int, string>();
         // here ARID University Registration Numbers are used as keys and student names as values
