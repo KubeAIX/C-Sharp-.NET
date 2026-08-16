@@ -2,10 +2,10 @@
 <Project DefaultTargets="Build">
   <Sdk Name="Microsoft.Build.Sql" Version="2.1.0" />
   <PropertyGroup>
-    <Name>task_2</Name>
+    <Name>task_2_delete_insert_create_update</Name>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql170DatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CI</ModelCollation>
-    <ProjectGuid>7e8cbc00-d3a5-4227-bb24-e505484acb07</ProjectGuid>
+    <ProjectGuid>eb6ddbb4-459f-4c7d-bec3-5e97acf5826c</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="dbo\Functions\" />
