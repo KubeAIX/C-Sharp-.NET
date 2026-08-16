@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+  <Sdk Name="Microsoft.Build.Sql" Version="2.1.0" />
+  <PropertyGroup>
+    <Name>task_3</Name>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql170DatabaseSchemaProvider</DSP>
+    <ModelCollation>1033, CI</ModelCollation>
+    <ProjectGuid>1d3d50d8-152f-4a28-af2d-d1901f6d4de8</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="dbo\Security\" />
+    <Folder Include="dbo\StoredProcedures\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\UserDefinedTypes\" />
+    <Folder Include="dbo\Views\" />
+  </ItemGroup>
+</Project>
