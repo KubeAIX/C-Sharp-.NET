@@ -1,4 +1,4 @@
--- delete old database
+
 use master;
 go
 
@@ -126,19 +126,12 @@ values
 go
 
 
--- salaries data
-
 insert into salaries
 (employee_id, salary, salary_date)
 values
 (1, 80000, '2026-08-01'),
 (2, 60000, '2026-08-01');
 go
-
-
--- =========================
--- employee crud
--- =========================
 
 create procedure add_employee
     @name varchar(100),
@@ -187,10 +180,6 @@ end;
 go
 
 
--- =========================
--- attendance crud
--- =========================
-
 create procedure add_attendance
     @employee_id int,
     @attendance_date date,
@@ -234,11 +223,6 @@ begin
 end;
 go
 
-
--- =========================
--- salary crud
--- =========================
-
 create procedure add_salary
     @employee_id int,
     @salary decimal(10,2),
@@ -281,12 +265,6 @@ begin
     where salary_id = @id;
 end;
 go
-
-
--- =========================
--- test
--- =========================
-
 exec add_employee
     'usman',
     'usman@gmail.com',
